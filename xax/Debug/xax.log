@@ -1,0 +1,40 @@
+﻿Build started 15.12.2014 17:02:10.
+     1>Project "C:\Documents and Settings\User\Рабочий стол\c++ presentacia\xax\xax\xax.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\xax.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\xax.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\xax.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\xax.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt xax.cpp
+         xax.cpp
+     1>c:\documents and settings\user\рабочий стол\c++ presentacia\xax\xax\xax.cpp(54): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\conio.h(128) : see declaration of 'getch'
+     1>c:\documents and settings\user\рабочий стол\c++ presentacia\xax\xax\xax.cpp(162): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\documents and settings\user\рабочий стол\c++ presentacia\xax\xax\xax.cpp(203): warning C4805: '==' : unsafe mix of type 'int' and type 'bool' in operation
+     1>c:\documents and settings\user\рабочий стол\c++ presentacia\xax\xax\xax.cpp(203): warning C4996: 'kbhit': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _kbhit. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\conio.h(130) : see declaration of 'kbhit'
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\xax.exe.embed.manifest.res" Debug\xax_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\User\Рабочий стол\c++ presentacia\xax\Debug\xax.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\xax.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\User\Рабочий стол\c++ presentacia\xax\Debug\xax.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\User\Рабочий стол\c++ presentacia\xax\Debug\xax.lib" /MACHINE:X86 Debug\xax.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\xax.obj
+       Manifest:
+         Deleting file "Debug\xax.exe.embed.manifest".
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\xax.exe.embed.manifest" /manifest Debug\xax.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\xax.exe.embed.manifest.res" Debug\xax_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\User\Рабочий стол\c++ presentacia\xax\Debug\xax.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\xax.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\User\Рабочий стол\c++ presentacia\xax\Debug\xax.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Documents and Settings\User\Рабочий стол\c++ presentacia\xax\Debug\xax.lib" /MACHINE:X86 Debug\xax.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\xax.obj
+         xax.vcxproj -> C:\Documents and Settings\User\Рабочий стол\c++ presentacia\xax\Debug\xax.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\xax.unsuccessfulbuild".
+         Touching "Debug\xax.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\User\Рабочий стол\c++ presentacia\xax\xax\xax.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.20
